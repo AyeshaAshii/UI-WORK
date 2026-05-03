@@ -696,7 +696,7 @@ GameObject:
   - component: {fileID: 1161598690}
   - component: {fileID: 1161598689}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -743,11 +743,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.92156863, g: 0.72365475, b: 0.20705767, a: 1}
-    m_HighlightedColor: {r: 0.92156863, g: 0.72365475, b: 0.20705767, a: 0.8784314}
-    m_PressedColor: {r: 0.9607843, g: 1, b: 0, a: 0.7764706}
+    m_NormalColor: {r: 0.9339623, g: 0.8509804, b: 0.6509804, a: 0.58431375}
+    m_HighlightedColor: {r: 1, g: 0.72527474, b: 0, a: 0.8509804}
+    m_PressedColor: {r: 0.9926069, g: 1, b: 0, a: 0.9843137}
     m_SelectedColor: {r: 0.9215687, g: 0.7254902, b: 0.20784315, a: 1}
-    m_DisabledColor: {r: 0.8, g: 0.72365475, b: 0.20705767, a: 0.3137255}
+    m_DisabledColor: {r: 0.8962264, g: 0.8563313, b: 0.57916516, a: 0.3137255}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -779,7 +779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6618081, g: 0.8018868, b: 0.2988163, a: 1}
+  m_Color: {r: 0.701539, g: 0.9245283, b: 0.10902455, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -814,7 +814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621848680}
   m_Layer: 0
-  m_Name: start
+  m_Name: start button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -848,7 +848,7 @@ GameObject:
   - component: {fileID: 1640043197}
   - component: {fileID: 1640043196}
   m_Layer: 5
-  m_Name: ' button'
+  m_Name: ' button label'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
