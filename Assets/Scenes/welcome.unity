@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 40863775}
   - component: {fileID: 40863774}
   m_Layer: 5
-  m_Name: quit
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176,9 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'QUIT
-
-'
+  m_text: START
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -270,7 +268,7 @@ GameObject:
   - component: {fileID: 359510735}
   - component: {fileID: 359510734}
   m_Layer: 5
-  m_Name: game
+  m_Name: name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292,8 +290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.000061, y: 15}
-  m_SizeDelta: {x: 1073.8011, y: 282.3402}
+  m_AnchoredPosition: {x: 0.000053406, y: 18}
+  m_SizeDelta: {x: 1683.9247, y: 242.3667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &359510734
 MonoBehaviour:
@@ -315,7 +313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME MODE
+  m_text: YEEEEEE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -342,8 +340,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -586,7 +584,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 771843775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6980cce6383f5164ba7872ee209a2a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: fe94f64949a80b54da1bc55a17095892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &853301546
@@ -601,7 +599,7 @@ GameObject:
   - component: {fileID: 853301549}
   - component: {fileID: 853301548}
   m_Layer: 5
-  m_Name: Thanks
+  m_Name: welcome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -623,7 +621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: 374}
+  m_AnchoredPosition: {x: 0.000030518, y: 317}
   m_SizeDelta: {x: 1073.8011, y: 282.3402}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853301548
@@ -646,7 +644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THANKS FOR PLAYING!
+  m_text: WELCOME TO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -673,8 +671,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -740,7 +738,7 @@ GameObject:
   - component: {fileID: 951458680}
   - component: {fileID: 951458679}
   m_Layer: 5
-  m_Name: Button
+  m_Name: START
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -763,8 +761,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.4153, y: -304.3561}
-  m_SizeDelta: {x: 379.7129, y: 163.8482}
+  m_AnchoredPosition: {x: 30, y: -251}
+  m_SizeDelta: {x: 379.7129, y: 181.7997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951458679
 MonoBehaviour:
@@ -826,8 +824,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 771843779}
-        m_TargetAssemblyTypeName: Credit, Assembly-CSharp
-        m_MethodName: Quit
+        m_TargetAssemblyTypeName: Welcome, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -966,7 +964,7 @@ GameObject:
   - component: {fileID: 1206948442}
   - component: {fileID: 1206948441}
   m_Layer: 5
-  m_Name: Made by
+  m_Name: game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,7 +986,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 141}
+  m_AnchoredPosition: {x: -14, y: 189}
   m_SizeDelta: {x: 1073.8011, y: 282.3402}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1206948441
@@ -1011,7 +1009,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'MADE BY:'
+  m_text: 'GAME
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
